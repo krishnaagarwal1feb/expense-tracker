@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="./css/additem.css">
+    <title>Add Item</title>
+</head>
+
+<body>
+    <div class="additem-heading">
+        Add item
+    </div>
+    <div class="additem-form-container">
+        <div class="row ">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="itemname" type="text" class="validate">
+                        <label class="active" for="name">Item Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="category">
+                        <label class="active" for="category">Category</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="amount">
+                        <label class="active" for="amount">Amount</label>
+                    </div>
+                </div>
+
+                <button id="additem-submit-button" class="btn waves-effect waves-light" type="submit" name="action">Add Item
+                                <i class="material-icons right">></i>
+                        </button>
+
+            </form>
+        </div>
+    </div>
+    <script src="./js/additem.js"></script>
+</body>
+
+</html>

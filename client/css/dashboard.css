@@ -1,0 +1,42 @@
+.dashboard-header {
+    display: block;
+    font-size: 20px;
+    background: rgb(211, 211, 211);
+    height: 50px;
+    line-height: 50px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+#user-name {
+    float: left;
+}
+
+#total-expense {
+    float: right;
+}
+
+.list-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.collection-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.listitem-itemname,
+.listitem-category,
+.listitem-amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#logout-button {
+    float: right;
+}

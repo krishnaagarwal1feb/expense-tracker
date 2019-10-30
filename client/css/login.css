@@ -1,0 +1,16 @@
+.login-form-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-heading {
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transform: rotate(-90deg);
+}
